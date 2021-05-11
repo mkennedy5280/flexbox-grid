@@ -115,7 +115,6 @@ main {
  display: flex;
  justify-content: center;
  align-items: center;
- color: #fff;
  flex-flow: row wrap;
 }
 
@@ -123,26 +122,24 @@ header,
 footer {
  height: 80px;
  width: 100%;
+ background-color: #fff;
+ justify-content: flex-start;
 }
 
 main {
  height: 250px;
  width: 100%;
+ color: #9b9b9b;
+ background-color: #f0f0f0;
+ font-size: 1.25em;
 }
 
 header {
-    font-size: 3.25em;
-    justify-content: flex-start;
-}
-
-header,
-main {
-  background-color: #c48e72;
-}
-
-footer {
     background-color: #fff;
     justify-content: flex-start;
+    font-size: 3.25em;
+    color: #c48e72;
+    padding-bottom: 20px;
 }
 
 ul, li {
@@ -161,10 +158,10 @@ ul, li {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: #9b9b9b;
   line-height: 1.5em;
   font-size: 1.125em;
-  background-color: #222;
+  background-color: #f0f0f0;
   display: flex; 
   justify-content: center;
   align-items: flex-start;

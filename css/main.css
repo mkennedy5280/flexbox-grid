@@ -124,6 +124,10 @@ footer {
  height: 80px;
 }
 
+main {
+ height: 250px;
+}
+
 header {
     background-color: #fcba03;
 }

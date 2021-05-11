@@ -110,7 +110,7 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  font-weight: 400;
   display: flex;
   justify-content: space-between;
 

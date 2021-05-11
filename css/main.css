@@ -131,19 +131,18 @@ main {
 }
 
 header {
-    background-color: #fcba03;
     font-size: 3.25em;
     justify-content: flex-start;
 }
+
+header,
+main {
+  background-color: #c48e72;
 }
 
 footer {
     background-color: #03fc4a;
     justify-content: flex-start;
-}
-
-main {
-    background-color: #1403fc;
 }
 
 ul, li {

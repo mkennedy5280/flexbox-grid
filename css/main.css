@@ -119,6 +119,11 @@ main {
  flex-flow: row wrap;
 }
 
+header,
+footer {
+ height: 80px;
+}
+
 header {
     background-color: #fcba03;
 }

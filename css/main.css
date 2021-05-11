@@ -131,6 +131,10 @@ body {
   padding: 30px 20px 0px;
 }
 
+.div-2 {
+ border-left: 1px solid #555555;
+ border-right: 1px solid #555555;
+}
 
 
 

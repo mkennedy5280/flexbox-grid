@@ -122,10 +122,12 @@ main {
 header,
 footer {
  height: 80px;
+ width: 100%;
 }
 
 main {
  height: 250px;
+ width: 100%;
 }
 
 header {

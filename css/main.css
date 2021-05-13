@@ -113,7 +113,6 @@ header,
 footer,
 main {
  display: flex;
- justify-content: center;
  align-items: center;
  flex-flow: row wrap;
 }
@@ -124,6 +123,7 @@ footer {
  width: 100%;
  background-color: #fff;
  justify-content: flex-start;
+
 }
 
 main {
@@ -142,10 +142,18 @@ header {
     font-size: 3.25em;
     color: #c48e72;
     padding-bottom: 20px;
+    width: 100%;
 }
 
-ul, li {
-  display: inline-block;
+ul, 
+li, 
+img {
+  display: flex;
+  padding-left: 0;
+}
+
+ul {
+  justify-content: space-between;
 }
 
 

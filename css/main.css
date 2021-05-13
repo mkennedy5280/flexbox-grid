@@ -132,6 +132,8 @@ main {
  color: #9b9b9b;
  background-color: #f0f0f0;
  font-size: 1.25em;
+ justify-content: flex-start;
+ padding: 30px 20px 0px;
 }
 
 header {
@@ -171,8 +173,8 @@ ul, li {
 }
 
 .div-2 {
- border-left: 1px solid #555555;
- border-right: 1px solid #555555;
+ border-left: 1px solid #757575;
+ border-right: 1px solid #757575;
 }
 
 

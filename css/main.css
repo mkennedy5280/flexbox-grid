@@ -146,16 +146,10 @@ header {
 }
 
 ul, 
-li, 
-img {
+li {
   display: flex;
-  padding-left: 0;
+  padding: 0px 20px 0px 0px;
 }
-
-ul {
-  justify-content: space-between;
-}
-
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
